@@ -2,12 +2,12 @@ Download and unzip dataset: https://drive.google.com/file/d/1Md8cA4Ra0oLCqlYuT49
 
 Directory structure should be:
 
-SNN
-|---- data_loader (directory)
-|---- dataset
-        | - train
-        | - test
-        | - eval
+SNN/ <br/>
+|---- data_loader/ <br/>
+|---- dataset/ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| - train <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| - test <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| - eval <br/>
 
 To load dataset:
 ```
