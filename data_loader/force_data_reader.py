@@ -3,7 +3,8 @@ import pickle
 
 class ForceDataReader():
     def __init__(self,pickle_file):
-        self.dataset=pickle.load(open(pickle_file,'rb'))
+        # self.dataset=pickle.load(open(pickle_file,'rb')) python 2 version
+        self.dataset=pickle.load(open(pickle_file,'rb'), encoding="latin1")
         print ('Dataset size: ',len(self.dataset))
 
     def get_full_data(self):

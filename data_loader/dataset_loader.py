@@ -12,7 +12,7 @@ import shutil
 DATA_FOLDER = "../dataset/"
 
 def load_dataset():
-    print '****Loading dataset, this will take a while...'
+    print('****Loading dataset, this will take a while...')
     train_pickle=DATA_FOLDER+'train'
     #validation_pickle=DATA_FOLDER+'eval'
     test_pickle=DATA_FOLDER+'test'
